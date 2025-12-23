@@ -1,0 +1,1 @@
+![](../../../img/cluster/arch-diag-basic.png)

@@ -1,0 +1,31 @@
+# Airflow
+logs/
+*.log
+airflow.db
+airflow.cfg
+unittests.cfg
+webserver_config.py
+*.pyc
+__pycache__/
+
+# Environment
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config (если содержит секреты)
+# config/
+
+# Временные файлы
+*.tmp
+*.bak
+
