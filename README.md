@@ -98,6 +98,14 @@
 
 ## Запуск проекта
 
+0. **Скачайте и установите Docker desktop**
+
+    [https://docs.docker.com/desktop/](https://docs.docker.com/desktop/)
+
+    Возможные проблемы:
+    - [не включена виртуализация по умолчанию (можешь следовать этому гайду сверху-вниз до "Первый запуск Docker Desktop" включительно)](https://www.securitylab.ru/blog/personal/Neurosinaps/355103.php)
+    - [команды docker не работают в терминале](https://lib.osipenkov.ru/reshenie-problemy-s-ustanovkoj-docker-desktop-na-windows/) + не забудьте перезапустить терминал (закрыть-открыть)
+
 1.  **Соберите и запустите Docker контейнеры:**
 
     Выполните следующую команду в корневой директории проекта, чтобы запустить (поднять) все сервисы в фоновом режиме. Запустятся Airflow, Postgres, MinIO.
